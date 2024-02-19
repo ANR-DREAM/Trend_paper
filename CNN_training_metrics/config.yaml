@@ -1,0 +1,54 @@
+params:
+    model : CNN
+    #model : UNet
+    rateDropout : 0.2
+    val_split : 0.2
+    lr : 0.001
+    batch_size : 8
+    n_epochs : 300
+    random_state : stratify #42 #None
+
+data:
+    input  : cmip #cmip,glorys,obs
+    output : cmip #cmip, obs_cci, obs_globcolour, globcolour_cmems
+    model_type : CanESM5 #CanESM5 #CMCC-ESM2 #IPSL-CM6A-LR #MPI-ESM1-2-LR
+    model_type_predictors : IPSL-CM6A-LR #CanESM5 #CMCC-ESM2 #IPSL-CM6A-LR #MPI-ESM1-2-LR
+    sensor : GSM #VIR MER, MOD_, OLA, SWF
+    anomaly : False
+    d1_train : 1900-01
+    d2_train : 1940-12
+    d1_pred: 1850-01
+    d2_pred: 2100-12
+    d1_test: 1950-01
+    d2_test: 1980-12
+    plot_date: 2017-01
+    lat_min : -90
+    lat_max : 90
+    lon_min : -180
+    lon_max : 180
+    var_input : ['zos','tos','rsds','uas','vas','uo','vo','mlotst'] #cmip
+#    var_input : ['sla','sst','ssr','u10','v10','u','v','mdt'] #obs,glorys
+
+out:
+    training : True
+    prediction : True
+    metric : True
+    plot : True
+   
+
+path:
+    log : ${hydra:run.dir}/ #new one
+#    log : /home/datawork-lops-oh/biogeo/AI/CNN_CHLORO/OUTPUT/CNN_CMIP/90S_90N/15-37-02_IPSL/
+#    log : /home/datawork-lops-oh/biogeo/AI/CNN_CHLORO/OUTPUT/CNN_CMIP/90S_90N/16-14-08_CMCC/
+#    log : outputs/2024-02-05/13-22-20/
+#    log : ${hydra.core.hydra_config.HydraConfig.get().runtime.output_dir}/
+#    log : /home2/datahome/epauthen/CHLORO/Hydra/outputs/2023-11-09/14-02-38/
+#    data_input : /home/datawork-lops-oh/biogeo/AI/CNN_CHLORO/INPUT/
+    #data_input : /home/datawork-lops-oh/biogeo/AI/CNN_CHLORO/Glorys12/Input_200m/
+#    data_output : /home2/datawork/epauthen/Ocean-Colour-CCI/OC_CCI_Coarse/
+#    data_output : /home/datawork-lops-oh/biogeo/AI/CNN_CHLORO/Globcolour_cmems_coarse/
+    #data_output : /home/datawork-lops-oh/biogeo/AI/CNN_CHLORO/MULTIOBS_GLO_BIO_BGC_3D_REP_015_010/Surface/
+#    data_output : /home2/datawork/epauthen/Globcolour_coarse/
+
+#CMIP input and output path is already in main.py
+#python main.py data.model_type=CanESM5,CMCC-ESM2,IPSL-CM6A-LR,MPI-ESM1-2-LR --multirun
