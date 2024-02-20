@@ -10,27 +10,24 @@ Finally use the config.yaml file to select data and model parameters, then run `
 
 Python notebooks are in the folder Figure to produce each of the four figures of the paper. 
 
-The data is available following these URLs and DOIs.
-\begin{table}[]
-\caption{List of data used in this study, for the six Schl merged products, the five Schl mono sensors and for the eight input features of the CNN.}
-\begin{tabular}{ccc}
-In text name           & File name or preprocessing          & Citation                                   \\ \hline
-Yu2023    & -                                   & \cite{Yu:2022aa}                      \\
-Multiobs-CMEMS   & MULTIOBS-GLO-BIO-BGC-3D-REP-015-010 & \cite{Sauzede:2021ab}                  \\
-OC-CCI           & OCEANCOLOUR-GLO-BGC-L3-MY-009-107   & \cite{ESA:2023aa}                          \\
-Globcolour-CMEMS & OCEANCOLOUR-GLO-BGC-L3-MY-009-103   & \cite{ACRI:2023aa}                          \\
-Globcolour-AVW   & -                                   & \cite{ACRI:2020aa}                              \\
-Globcolour-GSM   & -                                   & \cite{ACRI:2020aa}                          \\ \hline
-SeaWiFS          & GSM and NASA R2018.0                & \cite{ACRI:2020aa}                              \\
-VIIRS-NPP        & GSM and NASA R2018.0                & \cite{ACRI:2020aa}                             \\
-MODIS AQUA       & GSM and NASA R2018.0                & \cite{ACRI:2020aa}                            \\
-OLCI-A           & GSM and ESA PB 2.16 to 2.55         & \cite{ACRI:2020aa}                              \\
-MERIS            & GSM and ESA third preprocessing     & \cite{ACRI:2020aa}                             \\
-\hline
-SST                    & METOFFICE-GLO-SST-L4-REP-OBS-SST    & \cite{Worsfold:2022aa}                       \\
-SLA                    & SEALEVEL-GLO-PHY-L4-MY-008-047      & \cite{CLS:2023aa}                          \\
-U10, V10, SSR          & ERA5                                & \cite{Hersbach:2023aa}                       \\
-U, V                   & OSCAR-L4-OC-FINAL-V2.0              & \cite{Dohan:2021aa}                         \\
-MDT                    & CNES-CLS18                          & \cite{Mulet:2021aa}             
-\end{tabular}
-\end{table}
+## List of Data Used in This Study
+
+| In Text Name      | File Name or Preprocessing        | Citation                |
+| ----------------- | -------------------------------- | ----------------------- |
+| Yu2023            | -                                | [Yu:2022aa](#)          |
+| Multiobs-CMEMS    | MULTIOBS-GLO-BIO-BGC-3D-REP-015-010 | [Sauzede:2021ab](#)      |
+| OC-CCI            | OCEANCOLOUR-GLO-BGC-L3-MY-009-107  | [ESA:2023aa](#)          |
+| Globcolour-CMEMS  | OCEANCOLOUR-GLO-BGC-L3-MY-009-103  | [ACRI:2023aa](#)         |
+| Globcolour-AVW    | -                                | [ACRI:2020aa](#)         |
+| Globcolour-GSM    | -                                | [ACRI:2020aa](#)         |
+| SeaWiFS           | GSM and NASA R2018.0             | [ACRI:2020aa](#)         |
+| VIIRS-NPP         | GSM and NASA R2018.0             | [ACRI:2020aa](#)         |
+| MODIS AQUA        | GSM and NASA R2018.0             | [ACRI:2020aa](#)         |
+| OLCI-A            | GSM and ESA PB 2.16 to 2.55      | [ACRI:2020aa](#)         |
+| MERIS             | GSM and ESA third preprocessing  | [ACRI:2020aa](#)         |
+| SST               | METOFFICE-GLO-SST-L4-REP-OBS-SST | [Worsfold:2022aa](#)    |
+| SLA               | SEALEVEL-GLO-PHY-L4-MY-008-047   | [CLS:2023aa](#)         |
+| U10, V10, SSR     | ERA5                             | [Hersbach:2023aa](#)     |
+| U, V              | OSCAR-L4-OC-FINAL-V2.0           | [Dohan:2021aa](#)       |
+| MDT               | CNES-CLS18                        | [Mulet:2021aa](#)       |
+
