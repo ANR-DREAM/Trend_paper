@@ -36,9 +36,9 @@ ACRI-ST. (2020). Globcolour chlorophyll concentration for case 1 waters avw, gsm
 
 ACRI-ST, Colella, S., Böhm, E., Cesarini, C., Garnesson, P., J.Netting, & Calton, B. (2023). Global ocean colour (copernicus-globcolour), bio-geo-chemical, l3 (daily) from satellite observations (1997-ongoing) [dataset]. E.U. Copernicus Marine Service Information (CMEMS). Marine Data Store (MDS). Retrieved from https://doi.org/10.48670/moi-00280 doi: 10.48670/moi-00280
 
-CLS, & Pujol, M.-I. (2023). Global ocean gridded l 4 sea surface heights and derived variables reprocessed 1993 ongoing [dataset]. E.U. Copernicus Marine Service Information (CMEMS). Marine Data Store (MDS). Retrieved from https:// doi.org/10.48670/moi-00148 doi: 10.48670/moi-00148
+CLS, & Pujol, M.-I. (2023). Global ocean gridded l 4 sea surface heights and derived variables reprocessed 1993 ongoing [dataset]. E.U. Copernicus Marine Service Information (CMEMS). Marine Data Store (MDS). Retrieved from https://doi.org/10.48670/moi-00148 doi: 10.48670/moi-00148
 
-Dohan, K. (2021). Ocean surface current analyses real-time (oscar) surface currents - final 0.25 degree (version 2.0). NASA Physical Oceanography Distributed Active Archive Center. Retrieved from https://podaac.jpl.nasa.gov/ dataset/OSCAR L4 OC FINAL V2.0 doi: 10.5067/OSCAR-25F20
+Dohan, K. (2021). Ocean surface current analyses real-time (oscar) surface currents - final 0.25 degree (version 2.0). NASA Physical Oceanography Distributed Active Archive Center. Retrieved from https://podaac.jpl.nasa.gov/dataset/OSCAR L4 OC FINAL V2.0 doi: 10.5067/OSCAR-25F20
 
 ESA, Colella, S., Böhm, E., Cesarini, C., Garnesson, P., J.Netting, & Calton, B. (2023). Global ocean colour plankton and reflectances my l3 daily observations [dataset]. E.U. Copernicus Marine Service Information (CMEMS). Marine Data Store (MDS). Retrieved from https://doi.org/10.48670/moi-00282 doi: 10.48670/moi-00282
 
