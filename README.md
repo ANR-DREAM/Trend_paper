@@ -12,9 +12,9 @@ Python notebooks are in the folder Figure to produce each of the four figures of
 
 ## List of Data Used in This Study
 
-| In Text Name      | File Name or Preprocessing        | Citation                |
-| ----------------- | -------------------------------- | ----------------------- |
-| Yu2023            | -                                | [Yu:2022aa](#)          |
+| In Text Name      | File Name or Preprocessing        | Citation                | Link               |
+| ----------------- | -------------------------------- | ----------------------- | ----------------------- |
+| Yu2023            | -                                | Yu et al (2022)          |  https://doi.org/10.5281/zenodo.7092220 |
 | Multiobs-CMEMS    | MULTIOBS-GLO-BIO-BGC-3D-REP-015-010 | [Sauzede:2021ab](#)      |
 | OC-CCI            | OCEANCOLOUR-GLO-BGC-L3-MY-009-107  | [ESA:2023aa](#)          |
 | Globcolour-CMEMS  | OCEANCOLOUR-GLO-BGC-L3-MY-009-103  | [ACRI:2023aa](#)         |
