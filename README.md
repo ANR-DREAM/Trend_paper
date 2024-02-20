@@ -11,7 +11,7 @@ Finally use the config.yaml file to select data and model parameters, then run `
 
 Python notebooks are in the folder Figure to produce each of the four figures of the paper. 
 
-## List of Data Used in This Study
+## List of data used in this study
 
 | In Text Name      | File Name or Preprocessing        | Citation                | Link               |
 | ----------------- | -------------------------------- | ----------------------- | ----------------------- |
