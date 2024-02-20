@@ -31,6 +31,7 @@ Python notebooks are in the folder Figure to produce each of the four figures of
 | U, V              | OSCAR-L4-OC-FINAL-V2.0           | Dohan et al 2021       | https://doi.org/10.5067/OSCAR-25F20 |
 | MDT               | CNES-CLS18                        | Mulet et al 2021       | [AVISO](https://www.aviso.altimetry.fr/en/data/products/auxiliary-products/mdt/mdt-global-cnes-cls18.html) |
 
+## Data reference
 ACRI-ST. (2020). Globcolour chlorophyll concentration for case 1 waters avw, gsm [dataset]. Author. Retrieved from https://hermes.acri.fr
 
 ACRI-ST, Colella, S., Böhm, E., Cesarini, C., Garnesson, P., J.Netting, & Calton, B. (2023). Global ocean colour (copernicus-globcolour), bio-geo-chemical, l3 (daily) from satellite observations (1997-ongoing) [dataset]. E.U. Copernicus Marine Service Information (CMEMS). Marine Data Store (MDS). Retrieved from https://doi.org/10.48670/moi-00280 doi: 10.48670/moi-00280
