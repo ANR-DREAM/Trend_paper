@@ -1,0 +1,26 @@
+data:
+    input : globcolour_cmems #avw #gsm #cmip #pred #cci #multiobs #cmip #yu #globcolour_cmems #GSMpred #GCMEMSpred #CCIpred
+#    sensor : VIR #MER, MOD, OLA, SWF
+    d1 : 2002-01
+    d2 : 2011-12
+    lat_min : -50
+    lat_max : 50
+    lon_min : -180
+    lon_max : 180
+    plot_only : False
+    plot : False
+
+path:
+#    log : ${hydra:run.dir}/ #new one
+    log : /home2/datahome/epauthen/CHLORO/Figure/
+    path_save : /home/datawork-lops-oh/biogeo/AI/CNN_CHLORO/trend_map/
+
+
+#Sweep command
+#python main.py data.input=CCIpred,GSMpred --multirun
+
+#python main.py data.input=cci,avw,multiobs,yu,gsm,globcolour_cmems --multirun
+#python main.py data.input=cci,gsm,globcolour_cmems --multirun
+#python main.py data.input=cci,gsm,globcolour_cmems,GSMpred,GCMEMSpred,CCIpred --multirun
+
+#python main.py data.input=cci,gsm,globcolour_cmems --multirun
