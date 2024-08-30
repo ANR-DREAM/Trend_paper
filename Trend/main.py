@@ -1,5 +1,5 @@
 #Hydra code to load and compute linear trend on each gridpoint for several Schl products - March 2024
-#The code output the sloe and p-value for each gridpoint
+#The code output the slope and p-value for each gridpoint
 from omegaconf import OmegaConf
 import hydra
 from hydra.core.config_store import ConfigStore
